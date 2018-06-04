@@ -11,6 +11,10 @@
 #include "spork.h"
 #include "timedata.h"
 
+#define MASTER_NODE_AMOUNT 1500
+
+
+
 class CMasternode;
 class CMasternodeBroadcast;
 class CMasternodePing;

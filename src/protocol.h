@@ -20,6 +20,7 @@
 
 #define MESSAGE_START_SIZE 4
 
+
 /** Message header.
  * (4) message start.
  * (12) command.
