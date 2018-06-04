@@ -171,6 +171,7 @@ public:
             (112427,uint256S("0x0000000004e7b1791d4c325f0cf9bec56c19fc421616ffe836c13d4090db8dcb")),
             1526211068,    // * UNIX timestamp of last checkpoint block
             112427,        // * total number of transactions between genesis and last checkpoint
+            2000
 		};
     }
 };
