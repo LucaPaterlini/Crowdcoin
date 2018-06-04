@@ -864,28 +864,28 @@ Adres: %4
         <translation>Proszę wybrać poziom bezpieczeństwa.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do  1500 CRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do  1500 CRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Użyj 16 oddzielnych masternodów</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 CRC za zanonimizowanie 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize  1500 CRC</source>
+        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 CRC za zanonimizowanie  1500 CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 CRC za zanonimizowanie 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize  1500 CRC</source>
+        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 CRC za zanonimizowanie  1500 CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC za każde 1000 CRC które zanonimizujesz.</translation>
+        <source>0.1 CRC per  1500 CRC you anonymize.</source>
+        <translation>0.1 CRC za każde  1500 CRC które zanonimizujesz.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -3390,8 +3390,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Nie znaleziono wystarczających denominowanych środków Darksend do wykonania tej transakcji.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 CRC</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się  1500 CRC</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3733,8 +3733,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 CRC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe  1500 CRC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

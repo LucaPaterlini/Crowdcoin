@@ -925,28 +925,28 @@
         <translation>Hãy chọn mức độ riêng tư.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến  1500 CRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến  1500 CRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 CRC để ẩn danh 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize  1500 CRC</source>
+        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 CRC để ẩn danh  1500 CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 CRC để ẩn danh 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize  1500 CRC</source>
+        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 CRC để ẩn danh  1500 CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC cho mỗi 1000 CRC bạn muốn ẩn danh.</translation>
+        <source>0.1 CRC per  1500 CRC you anonymize.</source>
+        <translation>0.1 CRC cho mỗi  1500 CRC bạn muốn ẩn danh.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -3962,8 +3962,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Sản phẩm này có kèm theo phần mềm được phát triển bởi dự án OpenSSL để sử dụng các công cụ OpenSSL &lt;https://www.openssl.org/&gt; và phần mềm mã hoá được viết bởi Eric Young và phần mềm UPnP được viết bởi Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 CRC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ  1500 CRC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4486,8 +4486,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Không tìm đủ nguồn tiền PrivateSend denominated cho giao dịch này.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Không thể tìm thấy đủ nguồn chưa phân mệnh giá PrivateSend cho giao dịch này mà nó không bằng 1000 CRC.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Không thể tìm thấy đủ nguồn chưa phân mệnh giá PrivateSend cho giao dịch này mà nó không bằng  1500 CRC.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

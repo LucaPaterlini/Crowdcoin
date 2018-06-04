@@ -217,9 +217,9 @@ QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this "
-"transaction that are not equal 1000 CRC."),
+"transaction that are not equal 1500 CRC."),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
-"Unable to locate enough funds for this transaction that are not equal 1000 "
+"Unable to locate enough funds for this transaction that are not equal 1500 "
 "CRC."),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "Unsupported argument -socks found. Setting SOCKS version isn't possible "

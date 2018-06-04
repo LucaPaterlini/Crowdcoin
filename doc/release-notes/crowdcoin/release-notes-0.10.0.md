@@ -639,7 +639,7 @@ and even disable darksend auto-denom if wanted:
 0.10.12.7 Release notes
 -----------------------
 
-- Added a smart input splitting method. Place 1000+DRK into a brand new wallet
+- Added a smart input splitting method. Place 1500+DRK into a brand new wallet
   and it will be split into many inputs compatible with Darksend
 - DoAutodenomination now tries the correct balance (it was getting stuck on
   the wrong inputs)

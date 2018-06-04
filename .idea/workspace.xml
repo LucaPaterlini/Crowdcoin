@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparams.cpp" afterPath="$PROJECT_DIR$/src/chainparams.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparams.h" afterPath="$PROJECT_DIR$/src/chainparams.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.cpp" afterPath="$PROJECT_DIR$/src/darksend.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.h" afterPath="$PROJECT_DIR$/src/darksend.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.h" afterPath="$PROJECT_DIR$/src/main.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-payments.cpp" afterPath="$PROJECT_DIR$/src/masternode-payments.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spork.h" afterPath="$PROJECT_DIR$/src/spork.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -54,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="1759" column="79" lean-forward="false" selection-start-line="1759" selection-start-column="79" selection-end-line="1759" selection-end-column="79" />
+            <state relative-caret-position="359">
+              <caret line="1768" column="21" lean-forward="false" selection-start-line="1768" selection-start-column="21" selection-end-line="1768" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -68,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,14 +78,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="masternode-payments.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="masternode-payments.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="295" column="21" lean-forward="false" selection-start-line="295" selection-start-column="21" selection-end-line="295" selection-end-column="21" />
-              <folding>
-                <marker date="1528119559716" expanded="true" signature="12911:14849" ph="{...}" />
-              </folding>
+            <state relative-caret-position="197">
+              <caret line="266" column="34" lean-forward="false" selection-start-line="266" selection-start-column="34" selection-end-line="266" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,11 +183,11 @@
         <option value="$PROJECT_DIR$/src/darksend.cpp" />
         <option value="$PROJECT_DIR$/src/darksend.h" />
         <option value="$PROJECT_DIR$/src/spork.h" />
-        <option value="$PROJECT_DIR$/src/masternode-payments.cpp" />
         <option value="$PROJECT_DIR$/src/chainparams.cpp" />
         <option value="$PROJECT_DIR$/src/main.h" />
         <option value="$PROJECT_DIR$/src/chainparams.h" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/masternode-payments.cpp" />
       </list>
     </option>
   </component>
@@ -473,12 +465,12 @@
       <workItem from="1511965571563" duration="377000" />
       <workItem from="1526897761690" duration="1755000" />
       <workItem from="1528110075441" duration="24000" />
-      <workItem from="1528110150584" duration="6502000" />
+      <workItem from="1528110150584" duration="7708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33597000" />
+    <option name="totallyTimeSpent" value="34803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1059" extended-state="6" />
@@ -880,28 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="295" column="21" lean-forward="false" selection-start-line="295" selection-start-column="21" selection-end-line="295" selection-end-column="21" />
-          <folding>
-            <marker date="1528119559716" expanded="true" signature="12911:14849" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -916,8 +890,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="1768" column="21" lean-forward="false" selection-start-line="1768" selection-start-column="21" selection-end-line="1768" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="1759" column="79" lean-forward="false" selection-start-line="1759" selection-start-column="79" selection-end-line="1759" selection-end-column="79" />
+          <caret line="266" column="34" lean-forward="false" selection-start-line="266" selection-start-column="34" selection-end-line="266" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -265,9 +265,6 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int nBlockH
 {
     // make sure it's not filled yet
     txoutMasternodeRet = CTxOut();
-
-    bool hasMasternode = true; // add LP
-
     CScript payee;
 
 

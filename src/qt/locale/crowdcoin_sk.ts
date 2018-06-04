@@ -901,28 +901,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do  1500 CRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to  1500 CRC</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do  1500 CRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 CRC pre anonimizáciu 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize  1500 CRC</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 CRC pre anonimizáciu  1500 CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 CRC pre anonimizáciu 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize  1500 CRC</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 CRC pre anonimizáciu  1500 CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC za 1000 CRC ktoré spravíte anonymnými.</translation>
+        <source>0.1 CRC per  1500 CRC you anonymize.</source>
+        <translation>0.1 CRC za  1500 CRC ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -3587,8 +3587,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 CRC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné  1500 CRC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3999,8 +3999,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 CRC.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal  1500 CRC.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné  1500 CRC.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
