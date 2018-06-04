@@ -31,6 +31,8 @@
 
 #include <boost/unordered_map.hpp>
 
+#define DEV_FEE_BLOCK_ACTIVATION 135000
+
 class CBlockIndex;
 class CBlockTreeDB;
 class CBloomFilter;
@@ -253,7 +255,7 @@ bool ActivateBestChain(CValidationState& state, const CChainParams& chainparams,
 double ConvertBitsToDouble(unsigned int nBits);
 CAmount GetBlockSubsidy(int nBits, int nHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly = false);
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue);
-
+CAmount GetDevPayment(int nHeight, CAmount blockValue);  // LP ADD
 /**
  * Prune block and undo files (blk???.dat and undo???.dat) so that the disk space used is less than a user-defined target.
  * The user sets the target (in MB) on the command line or in config file.  This will be run on startup and whenever new

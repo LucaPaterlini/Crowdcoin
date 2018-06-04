@@ -266,7 +266,11 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int nBlockH
     // make sure it's not filled yet
     txoutMasternodeRet = CTxOut();
 
+    bool hasMasternode = true; // add LP
+
     CScript payee;
+
+
 
     if(!mnpayments.GetBlockPayee(nBlockHeight, payee)) {
         // no masternode detected...
@@ -284,17 +288,31 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int nBlockH
     // GET MASTERNODE PAYMENT VARIABLES SETUP
     CAmount masternodePayment = GetMasternodePayment(nBlockHeight, blockReward);
 
-    // split reward between miner ...
-    txNew.vout[0].nValue -= masternodePayment;
-    // ... and masternode
-    txoutMasternodeRet = CTxOut(masternodePayment, payee);
-    txNew.vout.push_back(txoutMasternodeRet);
+    // GET DEV PAYMENT QUANTITY
+    CAmount developerfeeTotal = GetDevPayment(nBlockHeight,blockReward);
+
+    // GET DEV PAYMENT ADDRESS
+    CBitcoinAddress developerfeeaddress(Params().GetDeveloperFeePayee());
+    CScript developerfeescriptpubkey = GetScriptForDestination(developerfeeaddress.Get());
+
+    txNew.vout.resize(3);
+    txNew.vout[2].scriptPubKey = developerfeescriptpubkey;
+    txNew.vout[2].nValue = developerfeeTotal;
+    txNew.vout[1].scriptPubKey = payee;
+    txNew.vout[1].nValue = masternodePayment;
+    txNew.vout[0].nValue -=  masternodePayment + developerfeeTotal;
+
 
     CTxDestination address1;
     ExtractDestination(payee, address1);
     CBitcoinAddress address2(address1);
 
-    LogPrintf("CMasternodePayments::FillBlockPayee -- Masternode payment %lld to %s\n", masternodePayment, address2.ToString());
+    CTxDestination addressdevfee1;
+    ExtractDestination(developerfeescriptpubkey, addressdevfee1);
+    CBitcoinAddress addressdevfee2(addressdevfee1);
+
+    LogPrintf("Masternode payment of %f to %s\n", masternodePayment, address2.ToString().c_str());
+    LogPrintf("DeveloperFee payment of %f to %s\n", developerfeeTotal, addressdevfee2.ToString().c_str());
 }
 
 int CMasternodePayments::GetMinMasternodePaymentsProto() {

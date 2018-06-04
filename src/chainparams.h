@@ -81,6 +81,8 @@ public:
     int FulfilledRequestExpireTime() const { return nFulfilledRequestExpireTime; }
     std::string SporkPubKey() const { return strSporkPubKey; }
     std::string MasternodePaymentPubKey() const { return strMasternodePaymentsPubKey; }
+    std::string GetDeveloperFeePayee() const { return strDeveloperFeePayee; }
+
 protected:
     CChainParams() {}
 
@@ -106,6 +108,7 @@ protected:
     int nFulfilledRequestExpireTime;
     std::string strSporkPubKey;
     std::string strMasternodePaymentsPubKey;
+    std::string strDeveloperFeePayee;
 };
 
 /**

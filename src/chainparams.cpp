@@ -106,6 +106,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
+        strDeveloperFeePayee = "XGjLuh8mFrXwLGJjGJZfPK4rVQpahP4FP1";
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
