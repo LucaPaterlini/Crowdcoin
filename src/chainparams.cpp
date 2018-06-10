@@ -128,12 +128,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x06bb68e5a31f7ec49812110b03e088006342bc3598b1d705f7ae7282b8eec4a8"));
 
 
-        vSeeds.push_back(CDNSSeedData("crowdcoin.site", "seed.crowdcoin.site"));
-        //vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin2.masterhash.us"));
-        //vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin3.masterhash.us"));
-        //vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin4.masterhash.us"));
-        //vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin5.masterhash.us"));
-        //vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin6.masterhash.us"));
+        
+        vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin2.masterhash.us"));
+        vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin3.masterhash.us"));
+        vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin4.masterhash.us"));
+        vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin5.masterhash.us"));
+        vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin6.masterhash.us"));
+	vSeeds.push_back(CDNSSeedData("crowdcoin.site", "seed.crowdcoin.site"));
         //vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
 
         // Crowdcoin addresses start with 'C'
