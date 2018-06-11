@@ -6,8 +6,8 @@
 NSEEDS=512
 
 MAX_SEEDS_PER_ASN=2
-
-MIN_BLOCKS = 400000
+MIN_UPTIME = 50
+MIN_BLOCKS = 130000
 
 # These are hosts that have been observed to be behaving strangely (e.g.
 # aggressively connecting to every node).
@@ -27,7 +27,7 @@ import collections
 PATTERN_IPV4 = re.compile(r"^((\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})):(\d+)$")
 PATTERN_IPV6 = re.compile(r"^\[([0-9a-z:]+)\]:(\d+)$")
 PATTERN_ONION = re.compile(r"^([abcdefghijklmnopqrstuvwxyz234567]{16}\.onion):(\d+)$")
-PATTERN_AGENT = re.compile(r"^(\/Satoshi:0\.8\.6\/|\/Satoshi:0\.9\.(2|3|4|5)\/|\/Core:0.1(0|1|2).\d{1,2}.\d{1,2}\/)$")
+PATTERN_AGENT = re.compile(r"^(\/Crowdcoin Core:0\.12\.1\.6\/)$")
 
 def parseline(line):
     sline = line.split()
@@ -147,23 +147,23 @@ def main():
     # Require service bit 1.
     ips = [ip for ip in ips if (ip['service'] & 1) == 1]
     # Require at least 50% 30-day uptime.
-    ips = [ip for ip in ips if ip['uptime'] > 50]
+    ips = [ip for ip in ips if ip['uptime'] > MIN_UPTIME]
     # Require a known and recent user agent.
-    ips = [ip for ip in ips if PATTERN_AGENT.match(ip['agent'])]
+    #ips = [ip for ip in ips if PATTERN_AGENT.match(ip['agent'])]
     # Sort by availability (and use last success as tie breaker)
     ips.sort(key=lambda x: (x['uptime'], x['lastsuccess'], x['ip']), reverse=True)
     # Filter out hosts with multiple ports, these are likely abusive
     ips = filtermultiport(ips)
     # Look up ASNs and limit results, both per ASN and globally.
-    ips = filterbyasn(ips, MAX_SEEDS_PER_ASN, NSEEDS)
+    #ips = filterbyasn(ips, MAX_SEEDS_PER_ASN, NSEEDS)
     # Sort the results by IP address (for deterministic output).
     ips.sort(key=lambda x: (x['net'], x['sortkey']))
 
     for ip in ips:
         if ip['net'] == 'ipv6':
-            print '[%s]:%i' % (ip['ip'], ip['port'])
+            print ("[%s]:%i" % (ip['ip'], ip['port']))
         else:
-            print '%s:%i' % (ip['ip'], ip['port'])
+            print ("%s:%i" % (ip['ip'], ip['port']))
 
 if __name__ == '__main__':
     main()

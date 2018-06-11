@@ -134,6 +134,7 @@ public:
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin4.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin5.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin6.masterhash.us"));
+	vSeeds.push_back(CDNSSeedData("crowdcoin.site", "seed.crowdcoin.site"));
         //vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
 
         // Crowdcoin addresses start with 'C'
