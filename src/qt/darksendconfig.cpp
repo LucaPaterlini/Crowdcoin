@@ -39,7 +39,7 @@ void DarksendConfig::clickBasic()
     configure(true, 1000, 2);
 
     QString strAmount(BitcoinUnits::formatWithUnit(
-        model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
+        model->getOptionsModel()->getDisplayUnit(), PRIVATESEND_AMOUNT));
     QMessageBox::information(this, tr("PrivateSend Configuration"),
         tr(
             "PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crowdcoin's configuration screen."

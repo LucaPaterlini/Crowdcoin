@@ -8,6 +8,9 @@
 #include "masternode.h"
 #include "wallet/wallet.h"
 
+
+#define PRIVATESEND_AMOUNT 1500
+
 class CDarksendPool;
 class CDarkSendSigner;
 class CDarksendBroadcastTx;
