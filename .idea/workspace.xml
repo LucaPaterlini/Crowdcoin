@@ -9,15 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.h" afterPath="$PROJECT_DIR$/src/darksend.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-object.h" afterPath="$PROJECT_DIR$/src/governance-object.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instantx.h" afterPath="$PROJECT_DIR$/src/instantx.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-payments.h" afterPath="$PROJECT_DIR$/src/masternode-payments.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spork.h" afterPath="$PROJECT_DIR$/src/spork.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/version.h" afterPath="$PROJECT_DIR$/src/version.h" />
-    </list>
+    <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -312,7 +304,7 @@
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crowdcoin_wi" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RunManager">
@@ -528,12 +520,12 @@
       <workItem from="1528893528110" duration="100000" />
       <workItem from="1528901431626" duration="150000" />
       <workItem from="1528902606601" duration="2033000" />
-      <workItem from="1528908006000" duration="653000" />
+      <workItem from="1528908006000" duration="712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39377000" />
+    <option name="totallyTimeSpent" value="39436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="747" extended-state="0" />
