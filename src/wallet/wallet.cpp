@@ -25,6 +25,8 @@
 #include "txmempool.h"
 #include "util.h"
 #include "utilmoneystr.h"
+#include "masternode.h"
+
 
 #include "darksend.h"
 #include "governance.h"
@@ -93,6 +95,8 @@ int COutput::Priority() const
 
 const CWalletTx* CWallet::GetWalletTx(const uint256& hash) const
 {
+    
+
     LOCK(cs_wallet);
     std::map<uint256, CWalletTx>::const_iterator it = mapWallet.find(hash);
     if (it == mapWallet.end())

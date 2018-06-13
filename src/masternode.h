@@ -11,7 +11,7 @@
 #include "spork.h"
 #include "timedata.h"
 
-#define MASTER_NODE_AMOUNT 1500
+#define MASTER_NODE_AMOUNT 1500 ?
 
 
 
