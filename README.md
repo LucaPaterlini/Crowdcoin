@@ -1,26 +1,32 @@
-Crowdcoin Core staging tree 0.12.1
-===============================
+![Logo](https://crowdcoin.site/img/logo-dark.png)
 
-`master:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoincoin/crowdcoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.0.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.1.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches)
+### Crowdcoin Core staging tree 0.12.1
+***
 
-http://www.crowdcoin.site
+[Website](http://crowdcoin.site/ )        
+[Bitcointalk](https://bitcointalk.org/index.php?topic=2348866.0)   
+[Discord](https://discord.gg/s4zQVxf)   
+[Telegram](https://t.me/crowdcoin)   
+[Twitter](https://twitter.com/CrowdCoin_CRC)
+
+`master:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoincoin/crowdcoin)    
+`v0.12.0.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.0.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches)    
+`v0.12.1.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.1.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches) 
 
 
-What is Crowdcoin?
+### What is Crowdcoin?
 ----------------
 
 CRC is an advanced, decentralized and secure digital currency. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology, near-instant and secure payments as well as anonymous transactions. With a fast block time of only 2 minutes, transactions will usually confirm and be successfully processed very quickly. CRC's blockchain uses the advanced NeoScrypt Proof-of-Work algorithm to secure the network. NeoScrypt is ASIC resistant and ensures a fair and stable return on investment for the miners.
- 
-Additional information, wallets, specifications & roadmap: https://bitcointalk.org/index.php?topic=2348866.0
 
 
-License
+### License
 -------
 
 Crowdcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
-Development Process
+### Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
@@ -29,7 +35,7 @@ stable release versions of Crowdcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Testing
+### Testing
 -------
 
 Testing and code review is the bottleneck for development; we get more pull
