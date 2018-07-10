@@ -5,7 +5,7 @@
 
 [Website](http://crowdcoin.site/ )        
 [Bitcointalk](https://bitcointalk.org/index.php?topic=2348866.0)   
-[Discord](https://discord.gg/s4zQVxf)   
+[Discord](https://discord.gg/KS7PUpe)   
 [Telegram](https://t.me/crowdcoin)   
 [Twitter](https://twitter.com/CrowdCoin_CRC)
 
