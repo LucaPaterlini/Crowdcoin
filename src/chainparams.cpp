@@ -126,13 +126,14 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000007db550074c6535ce41c2a6043d0afbc86f17f1762b06e2cd65d100f7b5f"));
         assert(genesis.hashMerkleRoot == uint256S("0x06bb68e5a31f7ec49812110b03e088006342bc3598b1d705f7ae7282b8eec4a8"));
 
-
+	vSeeds.push_back(CDNSSeedData("crowdcoin.site", "seed.crowdcoin.site")); //Tk to Robin87
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin1.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin2.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin3.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin4.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin5.masterhash.us"));
         vSeeds.push_back(CDNSSeedData("masterhash.us", "crowdcoin6.masterhash.us"));
+	    
         //vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
 
         // Crowdcoin addresses start with 'C'
